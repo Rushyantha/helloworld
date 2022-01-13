@@ -1,11 +1,23 @@
 {
-  "name": "helloworld",
+  "name": "rushyanthahelloworld",
   "version": "1.0.0",
   "description": "hello world",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "rushyantha",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Rushyantha/helloworld.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Rushyantha/helloworld/issues"
+  },
+  "homepage": "https://github.com/Rushyantha/helloworld#readme"
 }
